@@ -1,0 +1,33 @@
+#navy{
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+#teal{
+  position: absolute;
+  top:0;
+  right:0;
+}
+
+#blue{
+  position: absolute;
+  bottom:0;
+  left:0;
+}
+
+#aqua{
+  position: absolute;
+  bottom:0;
+  right:0;
+}
+
+#footer{
+  margin:20px auto;
+}
+
+/*sizing of all the boxes*/
+#wrapper div {
+  width: 125px;
+  height:125px;
+}
