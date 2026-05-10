@@ -1,0 +1,79 @@
+/*  ---------------Box Sizing-----------------  */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+/* ------ Utillity classes ------ */
+
+/* ------ Global Style ------ */
+body{
+   background-color: #ffffff;
+   font-family: "New Rocker", system-ui;
+   margin:0;
+   line-height: 1.6;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+/* ------ Header Background Cover ------ */
+header.primary {
+  background-image: url("https://i.pinimg.com/736x/8b/fe/34/8bfe344102a66f04621d36e30c70bf1b.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #592512;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+/* ------ white box ------ */
+header.primary h1, header.primary h2 {
+  background-color:#ffffff;
+  display: block;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/*make my links brown */
+a {
+  color: #8C4C27;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/*Footer*/
+footer.primary-footer{
+  text-align: center;
+  padding: 20px;
+  font-size: 1.05rem;
+  color: #592512;
+  background-color: #ffffff;
+  position: relative;
+}
+
+footer.primary-footer::after{
+  content:"";
+  display: block;
+  height: 60px;
+  background-image: url("https://i.pinimg.com/736x/8b/fe/34/8bfe344102a66f04621d36e30c70bf1b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: 10px;
+}
